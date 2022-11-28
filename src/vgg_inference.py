@@ -16,7 +16,7 @@ import torchvision.transforms as transforms
 from PIL import Image
 from matplotlib import pyplot as plt
 import torchvision.models as models
-from lesson.B_VGG.tools.common_tools import get_vgg16
+from tools.common_tools import get_vgg16
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

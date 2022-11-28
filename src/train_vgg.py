@@ -5,7 +5,6 @@
 # @date       : 2020-04-28
 # @brief      : vgg traning
 """
-
 import os
 import numpy as np
 import torch.nn as nn
@@ -15,8 +14,8 @@ import torchvision.transforms as transforms
 import torch.optim as optim
 from matplotlib import pyplot as plt
 import torchvision.models as models
-from lesson.B_VGG.tools.my_dataset import CatDogDataset
-from lesson.B_VGG.tools.common_tools import get_vgg16
+from VGG_Code.tools.my_dataset import CatDogDataset
+from VGG_Code.tools.common_tools import get_vgg16
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
